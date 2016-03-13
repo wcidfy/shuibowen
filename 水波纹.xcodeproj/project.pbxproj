@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B539B1A91C95980F00E634B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B539B1A81C95980F00E634B3 /* main.m */; };
+		B539B1AC1C95980F00E634B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B539B1AB1C95980F00E634B3 /* AppDelegate.m */; };
+		B539B1AF1C95980F00E634B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B539B1AE1C95980F00E634B3 /* ViewController.m */; };
+		B539B1B21C95980F00E634B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B539B1B01C95980F00E634B3 /* Main.storyboard */; };
+		B539B1B41C95980F00E634B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B539B1B31C95980F00E634B3 /* Assets.xcassets */; };
+		B539B1B71C95980F00E634B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B539B1B51C95980F00E634B3 /* LaunchScreen.storyboard */; };
+		B539B1C21C95980F00E634B3 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B539B1C11C95980F00E634B3 /* ___Tests.m */; };
+		B539B1CD1C95980F00E634B3 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B539B1CC1C95980F00E634B3 /* ___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B539B1BE1C95980F00E634B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B539B19C1C95980F00E634B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B539B1A31C95980F00E634B3;
+			remoteInfo = "水波纹";
+		};
+		B539B1C91C95980F00E634B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B539B19C1C95980F00E634B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B539B1A31C95980F00E634B3;
+			remoteInfo = "水波纹";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B539B1A41C95980F00E634B3 /* 水波纹.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "水波纹.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B539B1A81C95980F00E634B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B539B1AA1C95980F00E634B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B539B1AB1C95980F00E634B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B539B1AD1C95980F00E634B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B539B1AE1C95980F00E634B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B539B1B11C95980F00E634B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B539B1B31C95980F00E634B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B539B1B61C95980F00E634B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B539B1B81C95980F00E634B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B539B1BD1C95980F00E634B3 /* 水波纹Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "水波纹Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B539B1C11C95980F00E634B3 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		B539B1C31C95980F00E634B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B539B1C81C95980F00E634B3 /* 水波纹UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "水波纹UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B539B1CC1C95980F00E634B3 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		B539B1CE1C95980F00E634B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B539B1A11C95980F00E634B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B539B1BA1C95980F00E634B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B539B1C51C95980F00E634B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B539B19B1C95980F00E634B3 = {
+			isa = PBXGroup;
+			children = (
+				B539B1A61C95980F00E634B3 /* 水波纹 */,
+				B539B1C01C95980F00E634B3 /* 水波纹Tests */,
+				B539B1CB1C95980F00E634B3 /* 水波纹UITests */,
+				B539B1A51C95980F00E634B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B539B1A51C95980F00E634B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B539B1A41C95980F00E634B3 /* 水波纹.app */,
+				B539B1BD1C95980F00E634B3 /* 水波纹Tests.xctest */,
+				B539B1C81C95980F00E634B3 /* 水波纹UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B539B1A61C95980F00E634B3 /* 水波纹 */ = {
+			isa = PBXGroup;
+			children = (
+				B539B1AA1C95980F00E634B3 /* AppDelegate.h */,
+				B539B1AB1C95980F00E634B3 /* AppDelegate.m */,
+				B539B1AD1C95980F00E634B3 /* ViewController.h */,
+				B539B1AE1C95980F00E634B3 /* ViewController.m */,
+				B539B1B01C95980F00E634B3 /* Main.storyboard */,
+				B539B1B31C95980F00E634B3 /* Assets.xcassets */,
+				B539B1B51C95980F00E634B3 /* LaunchScreen.storyboard */,
+				B539B1B81C95980F00E634B3 /* Info.plist */,
+				B539B1A71C95980F00E634B3 /* Supporting Files */,
+			);
+			path = "水波纹";
+			sourceTree = "<group>";
+		};
+		B539B1A71C95980F00E634B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B539B1A81C95980F00E634B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B539B1C01C95980F00E634B3 /* 水波纹Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B539B1C11C95980F00E634B3 /* ___Tests.m */,
+				B539B1C31C95980F00E634B3 /* Info.plist */,
+			);
+			path = "水波纹Tests";
+			sourceTree = "<group>";
+		};
+		B539B1CB1C95980F00E634B3 /* 水波纹UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B539B1CC1C95980F00E634B3 /* ___UITests.m */,
+				B539B1CE1C95980F00E634B3 /* Info.plist */,
+			);
+			path = "水波纹UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B539B1A31C95980F00E634B3 /* 水波纹 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B539B1D11C95980F00E634B3 /* Build configuration list for PBXNativeTarget "水波纹" */;
+			buildPhases = (
+				B539B1A01C95980F00E634B3 /* Sources */,
+				B539B1A11C95980F00E634B3 /* Frameworks */,
+				B539B1A21C95980F00E634B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "水波纹";
+			productName = "水波纹";
+			productReference = B539B1A41C95980F00E634B3 /* 水波纹.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B539B1BC1C95980F00E634B3 /* 水波纹Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B539B1D41C95980F00E634B3 /* Build configuration list for PBXNativeTarget "水波纹Tests" */;
+			buildPhases = (
+				B539B1B91C95980F00E634B3 /* Sources */,
+				B539B1BA1C95980F00E634B3 /* Frameworks */,
+				B539B1BB1C95980F00E634B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B539B1BF1C95980F00E634B3 /* PBXTargetDependency */,
+			);
+			name = "水波纹Tests";
+			productName = "水波纹Tests";
+			productReference = B539B1BD1C95980F00E634B3 /* 水波纹Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B539B1C71C95980F00E634B3 /* 水波纹UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B539B1D71C95980F00E634B3 /* Build configuration list for PBXNativeTarget "水波纹UITests" */;
+			buildPhases = (
+				B539B1C41C95980F00E634B3 /* Sources */,
+				B539B1C51C95980F00E634B3 /* Frameworks */,
+				B539B1C61C95980F00E634B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B539B1CA1C95980F00E634B3 /* PBXTargetDependency */,
+			);
+			name = "水波纹UITests";
+			productName = "水波纹UITests";
+			productReference = B539B1C81C95980F00E634B3 /* 水波纹UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B539B19C1C95980F00E634B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lxx;
+				TargetAttributes = {
+					B539B1A31C95980F00E634B3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3HXKSU38SD;
+					};
+					B539B1BC1C95980F00E634B3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3HXKSU38SD;
+						TestTargetID = B539B1A31C95980F00E634B3;
+					};
+					B539B1C71C95980F00E634B3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3HXKSU38SD;
+						TestTargetID = B539B1A31C95980F00E634B3;
+					};
+				};
+			};
+			buildConfigurationList = B539B19F1C95980F00E634B3 /* Build configuration list for PBXProject "水波纹" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B539B19B1C95980F00E634B3;
+			productRefGroup = B539B1A51C95980F00E634B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B539B1A31C95980F00E634B3 /* 水波纹 */,
+				B539B1BC1C95980F00E634B3 /* 水波纹Tests */,
+				B539B1C71C95980F00E634B3 /* 水波纹UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B539B1A21C95980F00E634B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B539B1B71C95980F00E634B3 /* LaunchScreen.storyboard in Resources */,
+				B539B1B41C95980F00E634B3 /* Assets.xcassets in Resources */,
+				B539B1B21C95980F00E634B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B539B1BB1C95980F00E634B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B539B1C61C95980F00E634B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B539B1A01C95980F00E634B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B539B1AF1C95980F00E634B3 /* ViewController.m in Sources */,
+				B539B1AC1C95980F00E634B3 /* AppDelegate.m in Sources */,
+				B539B1A91C95980F00E634B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B539B1B91C95980F00E634B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B539B1C21C95980F00E634B3 /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B539B1C41C95980F00E634B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B539B1CD1C95980F00E634B3 /* ___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B539B1BF1C95980F00E634B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B539B1A31C95980F00E634B3 /* 水波纹 */;
+			targetProxy = B539B1BE1C95980F00E634B3 /* PBXContainerItemProxy */;
+		};
+		B539B1CA1C95980F00E634B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B539B1A31C95980F00E634B3 /* 水波纹 */;
+			targetProxy = B539B1C91C95980F00E634B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B539B1B01C95980F00E634B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B539B1B11C95980F00E634B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B539B1B51C95980F00E634B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B539B1B61C95980F00E634B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B539B1CF1C95980F00E634B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B539B1D01C95980F00E634B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B539B1D21C95980F00E634B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "水波纹/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lxx.adqer.com.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B539B1D31C95980F00E634B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "水波纹/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lxx.adqer.com.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B539B1D51C95980F00E634B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "水波纹Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lxx.adqer.com.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/水波纹.app/水波纹";
+			};
+			name = Debug;
+		};
+		B539B1D61C95980F00E634B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "水波纹Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lxx.adqer.com.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/水波纹.app/水波纹";
+			};
+			name = Release;
+		};
+		B539B1D81C95980F00E634B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "水波纹UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lxx.adqer.com.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "水波纹";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B539B1D91C95980F00E634B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "水波纹UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lxx.adqer.com.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "水波纹";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B539B19F1C95980F00E634B3 /* Build configuration list for PBXProject "水波纹" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B539B1CF1C95980F00E634B3 /* Debug */,
+				B539B1D01C95980F00E634B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B539B1D11C95980F00E634B3 /* Build configuration list for PBXNativeTarget "水波纹" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B539B1D21C95980F00E634B3 /* Debug */,
+				B539B1D31C95980F00E634B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B539B1D41C95980F00E634B3 /* Build configuration list for PBXNativeTarget "水波纹Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B539B1D51C95980F00E634B3 /* Debug */,
+				B539B1D61C95980F00E634B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B539B1D71C95980F00E634B3 /* Build configuration list for PBXNativeTarget "水波纹UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B539B1D81C95980F00E634B3 /* Debug */,
+				B539B1D91C95980F00E634B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B539B19C1C95980F00E634B3 /* Project object */;
+}
