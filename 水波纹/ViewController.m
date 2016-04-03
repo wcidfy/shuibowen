@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Recct.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor=[UIColor whiteColor];
+
+    Recct *recc=[[Recct alloc] initWithFrame:CGRectMake(100, 100, 60, 60)];
+    recc.backgroundColor=[UIColor whiteColor];
+    [self.view addSubview:recc];
+
 }
 
 - (void)didReceiveMemoryWarning {

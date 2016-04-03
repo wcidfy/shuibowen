@@ -10,11 +10,10 @@
 		B539B1A91C95980F00E634B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B539B1A81C95980F00E634B3 /* main.m */; };
 		B539B1AC1C95980F00E634B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B539B1AB1C95980F00E634B3 /* AppDelegate.m */; };
 		B539B1AF1C95980F00E634B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B539B1AE1C95980F00E634B3 /* ViewController.m */; };
-		B539B1B21C95980F00E634B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B539B1B01C95980F00E634B3 /* Main.storyboard */; };
 		B539B1B41C95980F00E634B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B539B1B31C95980F00E634B3 /* Assets.xcassets */; };
-		B539B1B71C95980F00E634B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B539B1B51C95980F00E634B3 /* LaunchScreen.storyboard */; };
 		B539B1C21C95980F00E634B3 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B539B1C11C95980F00E634B3 /* ___Tests.m */; };
 		B539B1CD1C95980F00E634B3 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B539B1CC1C95980F00E634B3 /* ___UITests.m */; };
+		B539B1DC1C95991100E634B3 /* Recct.m in Sources */ = {isa = PBXBuildFile; fileRef = B539B1DB1C95991100E634B3 /* Recct.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +40,7 @@
 		B539B1AB1C95980F00E634B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B539B1AD1C95980F00E634B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B539B1AE1C95980F00E634B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B539B1B11C95980F00E634B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B539B1B31C95980F00E634B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B539B1B61C95980F00E634B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B539B1B81C95980F00E634B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B539B1BD1C95980F00E634B3 /* 水波纹Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "水波纹Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B539B1C11C95980F00E634B3 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
@@ -51,6 +48,8 @@
 		B539B1C81C95980F00E634B3 /* 水波纹UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "水波纹UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B539B1CC1C95980F00E634B3 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		B539B1CE1C95980F00E634B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B539B1DA1C95991100E634B3 /* Recct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recct.h; sourceTree = "<group>"; };
+		B539B1DB1C95991100E634B3 /* Recct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recct.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +103,10 @@
 				B539B1AA1C95980F00E634B3 /* AppDelegate.h */,
 				B539B1AB1C95980F00E634B3 /* AppDelegate.m */,
 				B539B1AD1C95980F00E634B3 /* ViewController.h */,
+				B539B1DA1C95991100E634B3 /* Recct.h */,
+				B539B1DB1C95991100E634B3 /* Recct.m */,
 				B539B1AE1C95980F00E634B3 /* ViewController.m */,
-				B539B1B01C95980F00E634B3 /* Main.storyboard */,
 				B539B1B31C95980F00E634B3 /* Assets.xcassets */,
-				B539B1B51C95980F00E634B3 /* LaunchScreen.storyboard */,
 				B539B1B81C95980F00E634B3 /* Info.plist */,
 				B539B1A71C95980F00E634B3 /* Supporting Files */,
 			);
@@ -246,9 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B539B1B71C95980F00E634B3 /* LaunchScreen.storyboard in Resources */,
 				B539B1B41C95980F00E634B3 /* Assets.xcassets in Resources */,
-				B539B1B21C95980F00E634B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +273,7 @@
 				B539B1AF1C95980F00E634B3 /* ViewController.m in Sources */,
 				B539B1AC1C95980F00E634B3 /* AppDelegate.m in Sources */,
 				B539B1A91C95980F00E634B3 /* main.m in Sources */,
+				B539B1DC1C95991100E634B3 /* Recct.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +307,6 @@
 			targetProxy = B539B1C91C95980F00E634B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B539B1B01C95980F00E634B3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B539B1B11C95980F00E634B3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B539B1B51C95980F00E634B3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B539B1B61C95980F00E634B3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B539B1CF1C95980F00E634B3 /* Debug */ = {
@@ -418,6 +397,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lxx.adqer.com.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -429,6 +409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lxx.adqer.com.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
